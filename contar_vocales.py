@@ -1,15 +1,21 @@
 """
-Inserta el encabezado aquí y escribe tu código abajo
+El propósito de este programa es que dada una palabra, el programa cuente la cantidad de letras en la palabra
+Eduardo Caleb Castillo Llanas
+Daniel Maldonado Delgado
+Larisa Carolina Alvarez Gonzales
+Ximena Castro Flores
+03/Oct/25
 """
 
 # Declaraciones
-CONSTANTE = valor
-
+vocales = "aeiouAEIOUáéíóúÁÉÍÓÚ"
+contador = 0
 # Entradas
-entrada = input()
+frase = input("Introduzca una frase: ")
 
 # Proceso
 
-
-# Salidas
-print(salida)
+for letra in frase:
+    if letra in vocales:
+        contador += 1
+print(f"La palabra '{frase}' tiene {contador} vocales.")
