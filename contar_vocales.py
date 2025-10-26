@@ -4,7 +4,7 @@ Eduardo Caleb Castillo Llanas
 Daniel Maldonado Delgado
 Larisa Carolina Alvarez Gonzales
 Ximena Castro Flores
-03/Oct/25
+03/oct/25
 """
 
 # Declaraciones
