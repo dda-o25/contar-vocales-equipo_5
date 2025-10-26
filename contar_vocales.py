@@ -7,7 +7,7 @@ Ximena Castro Flores
 03/oct/25
 """
 
-# Declaraciones
+# Declaraciones-
 vocales = "aeiouAEIOUáéíóúÁÉÍÓÚ"
 contador = 0
 # Entradas
