@@ -49,6 +49,16 @@
       "comparison": "included",
       "timeout": 1,
       "points": 1
-    }
+    },
+    {
+      "name": "DIÉRESIS",
+      "setup": "",
+      "run": "LANG=en_US.utf8 python3 contar_vocales.py",
+      "input": "ÁNGEL ÍÑIGUEZ ESCRIBIÓ PINGÜINO SIN DIÉRESIS Y CANESÚ SIN ACENTO",
+      "output": "25",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }    
   ]
 }
